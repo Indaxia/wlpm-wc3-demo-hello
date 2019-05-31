@@ -6,6 +6,13 @@ Warcraft 3 Demo Module "demo-hello" for [WLPM](https://github.com/Indaxia/wc3-wl
 wlpm install https://github.com/Indaxia/wlpm-wc3-demo-hello
 ```
 
+OR add a new property in your wlpm-package.json and run "wlpm update"
+```
+  "dependencies": {
+    "https://github.com/Indaxia/wlpm-wc3-demo-hello": "*"
+  }
+```
+
 ## Usage
 
 ### In a module
